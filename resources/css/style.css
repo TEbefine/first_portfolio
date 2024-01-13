@@ -1,0 +1,21 @@
+header {
+    display: flex;
+}
+
+header p {
+    display: flex;
+    align-items: end;
+    margin-bottom: 25px;
+    margin-left: 10px;
+}
+
+nav a {
+    text-decoration: none;
+    margin: 0 15px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
