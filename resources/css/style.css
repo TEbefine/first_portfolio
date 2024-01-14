@@ -34,7 +34,8 @@ nav a {
 /* main */
 .introduce img {
     width: 250px;
-    height: 325px;
+    height: auto;
+    max-height: 800px;
 }
 
 .introduce {
@@ -42,5 +43,63 @@ nav a {
 }
 
 #about-me {
-    margin: 40px 0;
+    margin: 2rem 0;
+}
+
+.project {
+    font-size: 20px;
+}
+
+#projects {
+    margin: 2rem 0;
+}
+
+details {
+    margin: 2rem 0;
+}
+
+#skills img {
+    width: 65px;
+    height: 65px;
+}
+
+.icon {
+    display: flex;
+    justify-content: space-between;
+}
+
+#skills {
+    margin: 2rem 0;
+}
+
+footer h2 {
+    color: white;
+    margin: 1.2rem;
+}
+
+.contact-sp p {
+    color: white;
+    margin: 1.5rem;
+    font-size: 16px;
+}
+
+.contact-sp {
+    display: flex;
+    align-items: center;
+}
+
+.contact {
+    display: flex;
+}
+
+.separator {
+    height: 24px; /* Set the height of the separator */
+    border-left: 1px solid #fff; /* Adjust color and style as needed */
+    margin: auto 20px; /* Adjust spacing as needed */
+  }
+
+footer {
+    background-color: dimgray;
+    display: flex;
+    align-items: center;
 }
